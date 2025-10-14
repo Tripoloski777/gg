@@ -1,0 +1,60 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMbrpd1NoYQUfgFad/YCaVB",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Tripoloski777/gg/blob/main/figurinhas\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EUwXM9UqAs2C",
+        "outputId": "d57597b0-d392-4d0c-afbe-c57b953f0a65"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Digite o total de figurinhas: 75\n",
+            "Digite o número de amigos: 3\n"
+          ]
+        }
+      ],
+      "source": [
+        "total_de_figurinhas = int(input(\"Digite o total de figurinhas: \"))\n",
+        "numero_de_amigos = int(input(\"Digite o número de amigos: \"))\n",
+        "\n",
+        "figurinhas_amigos = total_de_figurinhas // (numero_de_amigos + 2)\n",
+        "figurinhas_joao = 2 * figurinhas_amigos\n",
+        "\n",
+        "figurinhas_joao = 2 * figurinhas_amigos"
+      ]
+    }
+  ]
+}
