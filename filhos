@@ -1,0 +1,63 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNvf4j2CU41VCVmKfb4spAG",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Tripoloski777/gg/blob/main/filhos\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 7,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6X0INmWLC6Sg",
+        "outputId": "999c4db1-659f-437d-d468-16e92c10b671"
+      },
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "(26, 30)"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 7
+        }
+      ],
+      "source": [
+        "def calcula_idade_maior(idade_monica, idade_filho1, idade_filho2):\n",
+        "    idade_filho3 = idade_monica - idade_filho1 - idade_filho2\n",
+        "\n",
+        "    idade_maxima = max(idade_filho1, idade_filho2, idade_filho3)\n",
+        "\n",
+        "    return idade_filho3, idade_maxima\n",
+        "\n",
+        "calcula_idade_maior(68, 12, 30)"
+      ]
+    }
+  ]
+}
