@@ -1,0 +1,63 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNV1cWIzZwcIavsWBx6J1X7",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Tripoloski777/gg/blob/main/monitores\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1vgmrw1PBv8N",
+        "outputId": "dedfa4b9-7f48-4bf3-a5f8-857cc8351e95"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite a quantidade de alunos: 25\n",
+            "Digite a quantidade de monitores: 25\n",
+            "sim, pode ir\n"
+          ]
+        }
+      ],
+      "source": [
+        "numero_de_alunos = int(input(\"Digite a quantidade de alunos: \"))\n",
+        "numero_de_monitores = int(input(\"Digite a quantidade de monitores: \"))\n",
+        "resposta_positiva = \"sim, pode ir\"\n",
+        "resposta_negativa = \"não pode ir\"\n",
+        "\n",
+        "if numero_de_alunos + numero_de_monitores <= 50:\n",
+        "    print(resposta_positiva)\n",
+        "else:\n",
+        "    print(resposta_negativa)"
+      ]
+    }
+  ]
+}
