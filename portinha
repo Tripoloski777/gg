@@ -1,0 +1,64 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPnxfrQZt19dEZXvxE/zCl2",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Tripoloski777/gg/blob/main/portinha\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "oQUo4u7KCcVC",
+        "outputId": "8182c386-a0f7-46e1-993c-3d6735a09b00"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite a posição da portinha P (0 ou 1): 0\n",
+            "Digite a posição da portinha R (0 ou 1): 1\n",
+            "C\n"
+          ]
+        }
+      ],
+      "source": [
+        "P = int(input(\"Digite a posição da portinha P (0 ou 1): \"))\n",
+        "R = int(input(\"Digite a posição da portinha R (0 ou 1): \"))\n",
+        "\n",
+        "if P == 0:\n",
+        "    print(\"C\")\n",
+        "elif P == 1 and R == 1:\n",
+        "    print(\"A\")\n",
+        "elif P == 1 and R == 0:\n",
+        "    print(\"B\")\n",
+        ""
+      ]
+    }
+  ]
+}
